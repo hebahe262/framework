@@ -1,0 +1,65 @@
+<div class="contact vh-10">
+    <div class="container ">
+        <div>
+            <div class="head text-center mb-2">
+            <h2> CONATCT SECTION</h2>
+          </div>
+
+          <div class="linee text-center   position-relative">
+            <i class="fa-solid fa-star"></i>
+        </div>
+
+        </div>
+        <div class="row gy-4 gy-5">
+            <form action="" class="w-50 p-3 mx-auto mt-5">
+
+                <div class="position-relative mb-4">
+                   
+
+                <input type="text"  (input)="mtinput($event,lable1)" class="form-control border-0 border-bottom py-3 position-relative "
+                 id ="userName"  placeholder="userName">
+                 <label for="userName" #lable1 class ="position-absolute "  >userName :</label>
+                </div>
+
+                <div class="position-relative mb-4 ">
+                  
+                <input type="text" (input)="mtinput($event,lable2)" class="form-control border-0 border-bottom py-3 position-relative "
+                 id="userAge" placeholder="userAge">
+                <label for="userAge" #lable2  class="position-absolute "  >userAge :</label>
+               
+                </div>
+                <div class="position-relative mb-4 ">
+                    
+                <input type="email" (input)="mtinput($event , lable3)" class="form-control border-0 border-bottom py-3 position-relative "
+                 id="userEmail" placeholder="userEmail">
+              <label for="userEmail" #lable3 class="position-absolute "  >userEmail :</label>
+               
+                </div>
+                <div class="position-relative mb-4 ">
+                   
+                <input type="password" (input)="mtinput($event , lable4)" class="form-control border-0 border-bottom py-3 position-relative "
+                 id="userPassword" placeholder="userPassword ">
+               <label for="userPassword" #lable4 class="position-absolute "  >userPassword :</label>
+               
+                </div>
+
+                <div>
+                    <button  class="btn mt-4 text-white" style="background-color: #1abc9c;"> send Message </button>
+
+                </div>
+             
+                
+    
+            </form>
+            
+            
+    
+    
+              
+                  
+        </div>
+    
+    </div>
+</div>
+
+

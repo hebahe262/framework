@@ -1,0 +1,56 @@
+<div class="portfolio">
+    <div class="container ">
+        <div>
+            <div class="head text-center mb-2">
+            <h2> PORTFOLIO COMPONENT</h2>
+          </div>
+
+          <div class="linee text-center   position-relative">
+            <i class="fa-solid fa-star"></i>
+        </div>
+
+        </div>
+        <div class="row gy-4 gx-5">
+    
+    @for (imgsr of imgsrs; track $index) {
+      <div class="col-md-6 col-lg-4 ">
+
+        <div class="position-relative  vio" (click)="open(go)">
+            <div class="ball  ">
+                <img #go class="img-fluid  rounded-3  img " [src]="imgsr"[alt]="alt">
+              </div>
+
+              <div class="plusss position-absolute  text-white top-0 start-0 end-0  bottom-0 d-flex justify-content-center align-items-center" >
+                      <i class="fa-solid fa-plus"></i>
+                </div>
+        </div>
+        
+      </div>
+
+    }
+            
+    
+        
+                  
+        </div>
+    
+
+        <div class="position-fixed img-model d-flex justify-content-center align-items-center" [class]="{
+
+          'd-none': imgSrc=='',
+          'd-block': imgSrc != ''
+
+        }" (click)="imgSrc='' ">
+
+          <div class="col-6 text-center">
+            <img class="img-fluid w-75" [src]="imgSrc" [alt]="alt">
+          </div>
+
+        </div>
+
+
+
+    </div>
+</div>
+
+

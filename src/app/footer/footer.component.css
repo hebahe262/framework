@@ -1,0 +1,23 @@
+
+
+footer .row .container {
+  width: 80%;
+  margin: 0 auto;
+}
+ .two {
+  background-color: #1a252f;
+}
+.one {
+  background-color: #2c3e50;
+  color: white;
+}
+.foo h3 {
+  font-size: 28px;
+  font-weight: 500;
+}
+ .icn i {
+  border: 1px solid white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 50%;
+}

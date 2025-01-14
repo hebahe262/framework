@@ -1,0 +1,42 @@
+.about{
+    background-color: #1ABC9C;
+    height: 97vh;
+}
+.linee::after{
+
+    
+    content: "";
+    position: absolute;
+    width: 88px;
+    height: 4px;
+    left: 450px;
+    bottom: 7px;
+    background-color: white;
+}
+
+.linee::before{
+   
+
+    content: "";
+    position: absolute;
+    top: 13px;
+    bottom: 0;
+    right: 453px;
+    width: 88px;
+    height: 4px;
+    background-color: white;
+}
+
+.tee h2{
+    margin-top: 37px;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+.he p{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin-top: 15px;
+    text-align: left;
+}

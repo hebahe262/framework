@@ -1,0 +1,64 @@
+.portfolio{
+    padding: 80px;
+}
+.head h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #2C3E50;
+    margin-top: 37px
+}
+.linee {
+    margin-top: 10px;
+}
+.linee::after{
+
+    
+    content: "";
+    position: absolute;
+    width: 88px;
+    height: 4px;
+    left: 450px;
+    bottom: 7px;
+    background-color: #2C3E50;
+}
+
+.linee::before{
+   
+
+    content: "";
+    position: absolute;
+    top: 13px;
+    bottom: 0;
+    right: 453px;
+    width: 88px;
+    height: 4px;
+    background-color: #2C3E50;
+}
+.fa-star {
+    color:  #2C3E50 ;
+}
+.ball{
+    margin-top: 18px;
+}
+.plusss{
+    opacity: 0;
+    background-color: #1abc9ce6;
+    transition: .6s opacity;
+    border-radius: 10px;
+
+}
+.vio:hover .plusss{
+    opacity: 1;
+
+
+    cursor: pointer;
+    
+}
+.plusss i{
+    font-size: 99px;
+}
+
+.img-model{
+    inset: 0;
+    background-color: rgba(13, 110, 253, 0.25)
+}

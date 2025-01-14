@@ -1,0 +1,50 @@
+.contact{
+    padding: 90px;
+}
+.head h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #2C3E50;
+    margin-top: 37px
+}
+.linee::after{
+
+    
+    content: "";
+    position: absolute;
+    width: 88px;
+    height: 4px;
+    left: 450px;
+    bottom: 7px;
+    background-color: #2C3E50;
+}
+
+.linee::before{
+   
+
+    content: "";
+    position: absolute;
+    top: 13px;
+    bottom: 0;
+    right: 453px;
+    width: 88px;
+    height: 4px;
+    background-color: #2C3E50;
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow:none;
+}
+label{
+    color: #1ABC9C;
+    transition: all 0.5s ease;
+    top: 50%;
+    z-index: -1;
+}
+.ani{
+    top: -18px;
+}

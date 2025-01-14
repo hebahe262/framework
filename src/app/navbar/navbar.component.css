@@ -1,0 +1,23 @@
+.mx-auto {
+     margin-right: 0 !important; 
+    margin-left: auto !important;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #2c3e50;
+    transition: all 0.5s ease;
+  }
+  .navbar-brand {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  nav div ul li a {
+    font-weight: 700;
+  }
+  .lii{
+    background-color: #1ABC9C;
+  }
